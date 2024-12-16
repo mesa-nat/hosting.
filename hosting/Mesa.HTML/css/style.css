@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: wheat;
+    color: blue;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: 20px;
+    list-style: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+section{
+    background-image: url(https://cdn.pixabay.com/photo/2024/03/08/09/47/ai-generated-8620359_1280.png);
+    width: auto;
+    height: 500px;
+}
+main{
+    background-color: wheat;
+}
+h1{
+    margin: 30px;
+    color: blue;
+}
+.p{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.D{
+    background-color: white;
+    border: solid 1px white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    border: solid 3px rgba(110, 20, 128, 0.473);
+    border: solid none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(182, 38, 182, 0.363);
+    text-align: center;
+}
+img{
+    width: 244px;
+    height: 144px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 10px;
+}
+button{
+    border: solid 1px black;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgba(11, 11, 173, 0.904);
+    color: white;
+    border: solid none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+}
+.large{
+    color: blue;
+    size: 50px;
+}
